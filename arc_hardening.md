@@ -1,6 +1,8 @@
 # Azure Arc-Enabled Server Hardening
 
-This document provides PowerShell commands to harden your Azure Arc-enabled servers. These steps help reduce the attack surface and improve security.
+This document provides PowerShell commands to harden your Azure Arc-enabled servers.  
+**These steps are intended specifically for Arc enablement and patching scenarios, and should only be applied to server resources (not to other resource types).**  
+They help reduce the attack surface and improve security.
 
 ## 1. Allow Only Approved Extensions
 ```powershell
